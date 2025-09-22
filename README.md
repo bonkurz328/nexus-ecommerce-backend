@@ -1,56 +1,61 @@
-# E-Commerce Backend API
+# Nexus E-Commerce Backend - Project Nexus
 
-A robust Django REST Framework backend for an e-commerce platform, built for ALX Project Nexus.
+A complete full-stack ecommerce platform built with Django and modern JavaScript.
 
-## 🚀 Features
+## 🚀 Live Demo
+- **Frontend**: http://127.0.0.1:8000/ (when running locally)
+- **API Documentation**: http://127.0.0.1:8000/api/ (Django REST Framework browsable API)
 
-- **User Authentication**: JWT-based authentication system
-- **Product Management**: Full CRUD operations with categories
-- **Order Processing**: Complete order lifecycle management
-- **RESTful API**: Clean, well-documented endpoints
-- **Database Optimization**: PostgreSQL with proper indexing
-- **API Documentation**: Interactive Swagger/OpenAPI docs
-- **Containerized**: Docker-ready for production deployment
+## ✨ Features
 
-## 📦 API Endpoints
+### Frontend
+- 🛍️ Product catalog with high-quality images
+- 🔍 Real-time product search
+- 🛒 Shopping cart with persistent storage
+- 📱 Responsive Bootstrap 5 design
+- ⚡ Fast, vanilla JavaScript frontend
 
-### Authentication
-- `POST /api/auth/register/` - User registration
-- `POST /api/auth/token/` - Obtain JWT tokens
-- `POST /api/auth/token/refresh/` - Refresh access token
-- `GET /api/auth/profile/` - User profile
+### Backend
+- 🔐 JWT Authentication system
+- 📦 Product & category management
+- 💳 Order processing pipeline
+- 🐳 Docker containerization
+- 📊 RESTful API architecture
 
-### Products
-- `GET /api/products/products/` - List all products
-- `GET /api/products/products/{id}/` - Product details
-- `GET /api/products/categories/` - List categories
+## 🏗️ Project Structure
+nexus-ecommerce-backend/
+├── ecommerce/ # Django project configuration
+├── products/ # Products app (models, API, views)
+├── orders/ # Order management
+├── users/ # Authentication & profiles
+├── templates/ # HTML templates
+│ ├── base.html # Base template
+│ ├── index.html # Homepage
+│ ├── products.html # Product catalog
+│ └── cart.html # Shopping cart
+├── static/ # Frontend assets
+│ ├── css/products.css
+│ ├── js/main.js
+│ └── images/products/ (100+ product images)
+└── api/ # REST API endpoints
 
-### Orders
-- `GET /api/orders/orders/` - User's orders
-- `POST /api/orders/orders/` - Create new order
-- `GET /api/orders/orders/{id}/` - Order details
-- `POST /api/orders/orders/{id}/cancel/` - Cancel order
-
-## 🛠️ Installation
+## 🚀 Quick Start
 
 ### Local Development
 ```bash
-# Clone repository
-git clone <your-repo-url>
-cd ecommerce-backend
+# 1. Clone repository
+git clone https://github.com/bonkurz328/nexus-ecommerce-backend.git
+cd nexus-ecommerce-backend
 
-# Create virtual environment
+# 2. Set up virtual environment
 python -m venv venv
-source venv/Scripts/activate  # Windows Git Bash
+source venv/Scripts/activate  # Windows
 
-# Install dependencies
+# 3. Install dependencies
 pip install -r requirements.txt
 
-# Run migrations
+# 4. Run migrations
 python manage.py migrate
 
-# Create superuser
-python manage.py createsuperuser
-
-# Run development server
+# 5. Start development server
 python manage.py runserver
