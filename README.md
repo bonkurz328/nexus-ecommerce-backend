@@ -23,21 +23,21 @@ A complete full-stack ecommerce platform built with Django and modern JavaScript
 - 📊 RESTful API architecture
 
 ## 🏗️ Project Structure
-nexus-ecommerce-backend/
-├── ecommerce/ # Django project configuration
-├── products/ # Products app (models, API, views)
-├── orders/ # Order management
-├── users/ # Authentication & profiles
-├── templates/ # HTML templates
-│ ├── base.html # Base template
-│ ├── index.html # Homepage
-│ ├── products.html # Product catalog
-│ └── cart.html # Shopping cart
-├── static/ # Frontend assets
-│ ├── css/products.css
-│ ├── js/main.js
-│ └── images/products/ (100+ product images)
-└── api/ # REST API endpoints
+nexus-ecommerce-backend/  
+├── ecommerce/ # Django project configuration  
+├── products/ # Products app (models, API, views)  
+├── orders/ # Order management  
+├── users/ # Authentication & profiles  
+├── templates/ # HTML templates  
+│ ├── base.html # Base template  
+│ ├── index.html # Homepage  
+│ ├── products.html # Product catalog  
+│ └── cart.html # Shopping cart  
+├── static/ # Frontend assets  
+│ ├── css/products.css  
+│ ├── js/main.js  
+│ └── images/products/ (100+ product images)  
+└── api/ # REST API endpoints  
 
 ## 🚀 Quick Start
 
