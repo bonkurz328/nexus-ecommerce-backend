@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="row">
+    <div class="col-12 text-center mb-5">
+        <h1 class="display-4">Welcome to Nexus E-commerce</h1>
+        <p class="lead">Discover amazing products at great prices!</p>
+        <a href="/products/" class="btn btn-primary btn-lg">Shop Now</a>
+    </div>
+</div>
+
+<!-- Featured Products -->
+<div class="row">
+    <div class="col-12">
+        <h2>Featured Products</h2>
+        <div id="featured-products" class="row">
+            <!-- Products will be loaded here by JavaScript -->
+        </div>
+    </div>
+</div>
+
+<script>
+    // Load featured products when the page loads
+    document.addEventListener('DOMContentLoaded', function() {
+        loadProducts('featured-products');
+    });
+</script>
+{% endblock %}
