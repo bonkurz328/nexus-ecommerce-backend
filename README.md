@@ -85,6 +85,7 @@ python manage.py migrate
 # 5. Start development server
 python manage.py runserver
 # Visit: http://127.0.0.1:8000/
+```
 
 🛠️ Tech Stack
 Backend: Django 4.2.7, Django REST Framework
