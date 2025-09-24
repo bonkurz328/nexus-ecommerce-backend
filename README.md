@@ -87,6 +87,36 @@ python manage.py runserver
 # Visit: http://127.0.0.1:8000/
 ```
 
+## ⚠️ Free Tier Limitations
+
+This project is deployed on Render's free tier, which has some limitations:
+
+- **Instance spins down** after 15 minutes of inactivity
+- **First load after inactivity** may take 30-60 seconds (wake-up time)
+- **"Bad Gateway" errors** may occur during the wake-up period
+- **After waking up**, the site works perfectly until the next inactive period
+
+**For consistent testing:**
+- If you get a "Bad Gateway" error, **wait 60 seconds and refresh**
+- The site will work perfectly once the instance is awake
+- For demo purposes, you may want to **visit the site once to wake it up** before presenting
+
+**Local development** doesn't have these limitations and provides instant response times.
+
+## 💻 Local Demo (No Waiting)
+
+For instant response times without the free-tier limitations:
+
+```bash
+git clone https://github.com/bonkurz328/nexus-ecommerce-backend.git
+cd nexus-ecommerce-backend
+python -m venv venv
+source venv/Scripts/activate  # Windows: venv\Scripts\activate
+pip install -r requirements.txt
+python manage.py migrate
+python manage.py runserver
+# Visit: http://127.0.0.1:8000/ (instant response)
+
 🛠️ Tech Stack  
 Backend: Django 4.2.7, Django REST Framework  
 Frontend: JavaScript, Bootstrap 5, HTML5/CSS3  
