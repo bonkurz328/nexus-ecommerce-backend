@@ -1,0 +1,650 @@
+[
+{
+  "model": "products.category",
+  "pk": 1,
+  "fields": {
+    "name": "Socks",
+    "description": "Products related to socks",
+    "created_at": "2025-09-14T07:34:25.388Z"
+  }
+},
+{
+  "model": "products.category",
+  "pk": 2,
+  "fields": {
+    "name": "Sports",
+    "description": "Products related to sports",
+    "created_at": "2025-09-14T07:34:25.422Z"
+  }
+},
+{
+  "model": "products.category",
+  "pk": 3,
+  "fields": {
+    "name": "Apparel",
+    "description": "Products related to apparel",
+    "created_at": "2025-09-14T07:34:25.453Z"
+  }
+},
+{
+  "model": "products.category",
+  "pk": 4,
+  "fields": {
+    "name": "Basketballs",
+    "description": "Products related to basketballs",
+    "created_at": "2025-09-14T07:34:25.511Z"
+  }
+},
+{
+  "model": "products.category",
+  "pk": 5,
+  "fields": {
+    "name": "Tshirts",
+    "description": "Products related to tshirts",
+    "created_at": "2025-09-14T07:34:25.572Z"
+  }
+},
+{
+  "model": "products.category",
+  "pk": 6,
+  "fields": {
+    "name": "Mens",
+    "description": "Products related to mens",
+    "created_at": "2025-09-14T07:34:25.674Z"
+  }
+},
+{
+  "model": "products.category",
+  "pk": 7,
+  "fields": {
+    "name": "Toaster",
+    "description": "Products related to toaster",
+    "created_at": "2025-09-14T07:34:25.778Z"
+  }
+},
+{
+  "model": "products.category",
+  "pk": 8,
+  "fields": {
+    "name": "Kitchen",
+    "description": "Products related to kitchen",
+    "created_at": "2025-09-14T07:34:25.818Z"
+  }
+},
+{
+  "model": "products.category",
+  "pk": 9,
+  "fields": {
+    "name": "Appliances",
+    "description": "Products related to appliances",
+    "created_at": "2025-09-14T07:34:25.849Z"
+  }
+},
+{
+  "model": "products.category",
+  "pk": 10,
+  "fields": {
+    "name": "Plates",
+    "description": "Products related to plates",
+    "created_at": "2025-09-14T07:34:25.898Z"
+  }
+},
+{
+  "model": "products.category",
+  "pk": 11,
+  "fields": {
+    "name": "Dining",
+    "description": "Products related to dining",
+    "created_at": "2025-09-14T07:34:25.952Z"
+  }
+},
+{
+  "model": "products.category",
+  "pk": 12,
+  "fields": {
+    "name": "Cookware",
+    "description": "Products related to cookware",
+    "created_at": "2025-09-14T07:34:26.023Z"
+  }
+},
+{
+  "model": "products.category",
+  "pk": 13,
+  "fields": {
+    "name": "Hoodies",
+    "description": "Products related to hoodies",
+    "created_at": "2025-09-14T07:34:26.074Z"
+  }
+},
+{
+  "model": "products.category",
+  "pk": 14,
+  "fields": {
+    "name": "Sweaters",
+    "description": "Products related to sweaters",
+    "created_at": "2025-09-14T07:34:26.109Z"
+  }
+},
+{
+  "model": "products.category",
+  "pk": 15,
+  "fields": {
+    "name": "Bathroom",
+    "description": "Products related to bathroom",
+    "created_at": "2025-09-14T07:34:26.194Z"
+  }
+},
+{
+  "model": "products.category",
+  "pk": 16,
+  "fields": {
+    "name": "Washroom",
+    "description": "Products related to washroom",
+    "created_at": "2025-09-14T07:34:26.238Z"
+  }
+},
+{
+  "model": "products.category",
+  "pk": 17,
+  "fields": {
+    "name": "Restroom",
+    "description": "Products related to restroom",
+    "created_at": "2025-09-14T07:34:26.273Z"
+  }
+},
+{
+  "model": "products.category",
+  "pk": 18,
+  "fields": {
+    "name": "Towels",
+    "description": "Products related to towels",
+    "created_at": "2025-09-14T07:34:26.306Z"
+  }
+},
+{
+  "model": "products.category",
+  "pk": 19,
+  "fields": {
+    "name": "Bath Towels",
+    "description": "Products related to bath towels",
+    "created_at": "2025-09-14T07:34:26.335Z"
+  }
+},
+{
+  "model": "products.category",
+  "pk": 20,
+  "fields": {
+    "name": "Cleaning",
+    "description": "Products related to cleaning",
+    "created_at": "2025-09-14T07:34:26.473Z"
+  }
+},
+{
+  "model": "products.category",
+  "pk": 21,
+  "fields": {
+    "name": "Shoes",
+    "description": "Products related to shoes",
+    "created_at": "2025-09-14T07:34:26.542Z"
+  }
+},
+{
+  "model": "products.category",
+  "pk": 22,
+  "fields": {
+    "name": "Running Shoes",
+    "description": "Products related to running shoes",
+    "created_at": "2025-09-14T07:34:26.687Z"
+  }
+},
+{
+  "model": "products.category",
+  "pk": 23,
+  "fields": {
+    "name": "Footwear",
+    "description": "Products related to footwear",
+    "created_at": "2025-09-14T07:34:26.724Z"
+  }
+},
+{
+  "model": "products.category",
+  "pk": 24,
+  "fields": {
+    "name": "Robe",
+    "description": "Products related to robe",
+    "created_at": "2025-09-14T07:34:26.771Z"
+  }
+},
+{
+  "model": "products.category",
+  "pk": 25,
+  "fields": {
+    "name": "Swimsuit",
+    "description": "Products related to swimsuit",
+    "created_at": "2025-09-14T07:34:26.827Z"
+  }
+},
+{
+  "model": "products.category",
+  "pk": 26,
+  "fields": {
+    "name": "Swimming",
+    "description": "Products related to swimming",
+    "created_at": "2025-09-14T07:34:26.875Z"
+  }
+},
+{
+  "model": "products.category",
+  "pk": 27,
+  "fields": {
+    "name": "Bathing",
+    "description": "Products related to bathing",
+    "created_at": "2025-09-14T07:34:26.918Z"
+  }
+},
+{
+  "model": "products.category",
+  "pk": 28,
+  "fields": {
+    "name": "Accessories",
+    "description": "Products related to accessories",
+    "created_at": "2025-09-14T07:34:26.990Z"
+  }
+},
+{
+  "model": "products.category",
+  "pk": 29,
+  "fields": {
+    "name": "Shades",
+    "description": "Products related to shades",
+    "created_at": "2025-09-14T07:34:27.045Z"
+  }
+},
+{
+  "model": "products.category",
+  "pk": 30,
+  "fields": {
+    "name": "Sandals",
+    "description": "Products related to sandals",
+    "created_at": "2025-09-14T07:34:27.102Z"
+  }
+},
+{
+  "model": "products.category",
+  "pk": 31,
+  "fields": {
+    "name": "Womens",
+    "description": "Products related to womens",
+    "created_at": "2025-09-14T07:34:27.142Z"
+  }
+},
+{
+  "model": "products.category",
+  "pk": 32,
+  "fields": {
+    "name": "Beach",
+    "description": "Products related to beach",
+    "created_at": "2025-09-14T07:34:27.178Z"
+  }
+},
+{
+  "model": "products.category",
+  "pk": 33,
+  "fields": {
+    "name": "Summer",
+    "description": "Products related to summer",
+    "created_at": "2025-09-14T07:34:27.209Z"
+  }
+},
+{
+  "model": "products.category",
+  "pk": 34,
+  "fields": {
+    "name": "Bedroom",
+    "description": "Products related to bedroom",
+    "created_at": "2025-09-14T07:34:27.259Z"
+  }
+},
+{
+  "model": "products.category",
+  "pk": 35,
+  "fields": {
+    "name": "Curtains",
+    "description": "Products related to curtains",
+    "created_at": "2025-09-14T07:34:27.308Z"
+  }
+},
+{
+  "model": "products.category",
+  "pk": 36,
+  "fields": {
+    "name": "Home",
+    "description": "Products related to home",
+    "created_at": "2025-09-14T07:34:27.340Z"
+  }
+},
+{
+  "model": "products.category",
+  "pk": 37,
+  "fields": {
+    "name": "Shorts",
+    "description": "Products related to shorts",
+    "created_at": "2025-09-14T07:34:27.386Z"
+  }
+},
+{
+  "model": "products.category",
+  "pk": 38,
+  "fields": {
+    "name": "Water Boiler",
+    "description": "Products related to water boiler",
+    "created_at": "2025-09-14T07:34:27.465Z"
+  }
+},
+{
+  "model": "products.category",
+  "pk": 39,
+  "fields": {
+    "name": "Kleenex",
+    "description": "Products related to kleenex",
+    "created_at": "2025-09-14T07:34:27.534Z"
+  }
+},
+{
+  "model": "products.category",
+  "pk": 40,
+  "fields": {
+    "name": "Tissues",
+    "description": "Products related to tissues",
+    "created_at": "2025-09-14T07:34:27.605Z"
+  }
+},
+{
+  "model": "products.category",
+  "pk": 41,
+  "fields": {
+    "name": "Tissues Box",
+    "description": "Products related to tissues box",
+    "created_at": "2025-09-14T07:34:27.643Z"
+  }
+},
+{
+  "model": "products.category",
+  "pk": 42,
+  "fields": {
+    "name": "Napkins",
+    "description": "Products related to napkins",
+    "created_at": "2025-09-14T07:34:27.667Z"
+  }
+},
+{
+  "model": "products.category",
+  "pk": 43,
+  "fields": {
+    "name": "Hats",
+    "description": "Products related to hats",
+    "created_at": "2025-09-14T07:34:27.706Z"
+  }
+},
+{
+  "model": "products.category",
+  "pk": 44,
+  "fields": {
+    "name": "Straw Hats",
+    "description": "Products related to straw hats",
+    "created_at": "2025-09-14T07:34:27.729Z"
+  }
+},
+{
+  "model": "products.category",
+  "pk": 45,
+  "fields": {
+    "name": "Jewelry",
+    "description": "Products related to jewelry",
+    "created_at": "2025-09-14T07:34:27.799Z"
+  }
+},
+{
+  "model": "products.category",
+  "pk": 46,
+  "fields": {
+    "name": "Hooded",
+    "description": "Products related to hooded",
+    "created_at": "2025-09-14T07:34:27.939Z"
+  }
+},
+{
+  "model": "products.category",
+  "pk": 47,
+  "fields": {
+    "name": "Bathmat",
+    "description": "Products related to bathmat",
+    "created_at": "2025-09-14T07:34:28.259Z"
+  }
+},
+{
+  "model": "products.category",
+  "pk": 48,
+  "fields": {
+    "name": "Flats",
+    "description": "Products related to flats",
+    "created_at": "2025-09-14T07:34:28.389Z"
+  }
+},
+{
+  "model": "products.category",
+  "pk": 49,
+  "fields": {
+    "name": "Shirts",
+    "description": "Products related to shirts",
+    "created_at": "2025-09-14T07:34:28.527Z"
+  }
+},
+{
+  "model": "products.category",
+  "pk": 50,
+  "fields": {
+    "name": "Garbage",
+    "description": "Products related to garbage",
+    "created_at": "2025-09-14T07:34:28.717Z"
+  }
+},
+{
+  "model": "products.category",
+  "pk": 51,
+  "fields": {
+    "name": "Bins",
+    "description": "Products related to bins",
+    "created_at": "2025-09-14T07:34:28.752Z"
+  }
+},
+{
+  "model": "products.category",
+  "pk": 52,
+  "fields": {
+    "name": "Cans",
+    "description": "Products related to cans",
+    "created_at": "2025-09-14T07:34:28.782Z"
+  }
+},
+{
+  "model": "products.category",
+  "pk": 53,
+  "fields": {
+    "name": "Bed Sheets",
+    "description": "Products related to bed sheets",
+    "created_at": "2025-09-14T07:34:28.865Z"
+  }
+},
+{
+  "model": "products.category",
+  "pk": 54,
+  "fields": {
+    "name": "Sheets",
+    "description": "Products related to sheets",
+    "created_at": "2025-09-14T07:34:28.905Z"
+  }
+},
+{
+  "model": "products.category",
+  "pk": 55,
+  "fields": {
+    "name": "Covers",
+    "description": "Products related to covers",
+    "created_at": "2025-09-14T07:34:28.938Z"
+  }
+},
+{
+  "model": "products.category",
+  "pk": 56,
+  "fields": {
+    "name": "Winter Hats",
+    "description": "Products related to winter hats",
+    "created_at": "2025-09-14T07:34:29.020Z"
+  }
+},
+{
+  "model": "products.category",
+  "pk": 57,
+  "fields": {
+    "name": "Beanies",
+    "description": "Products related to beanies",
+    "created_at": "2025-09-14T07:34:29.067Z"
+  }
+},
+{
+  "model": "products.category",
+  "pk": 58,
+  "fields": {
+    "name": "Tuques",
+    "description": "Products related to tuques",
+    "created_at": "2025-09-14T07:34:29.101Z"
+  }
+},
+{
+  "model": "products.category",
+  "pk": 59,
+  "fields": {
+    "name": "Pants",
+    "description": "Products related to pants",
+    "created_at": "2025-09-14T07:34:29.243Z"
+  }
+},
+{
+  "model": "products.category",
+  "pk": 60,
+  "fields": {
+    "name": "Sunglasses",
+    "description": "Products related to sunglasses",
+    "created_at": "2025-09-14T07:34:29.562Z"
+  }
+},
+{
+  "model": "products.category",
+  "pk": 61,
+  "fields": {
+    "name": "Glasses",
+    "description": "Products related to glasses",
+    "created_at": "2025-09-14T07:34:29.629Z"
+  }
+},
+{
+  "model": "products.category",
+  "pk": 62,
+  "fields": {
+    "name": "Cooking Set",
+    "description": "Products related to cooking set",
+    "created_at": "2025-09-14T07:34:29.756Z"
+  }
+},
+{
+  "model": "products.category",
+  "pk": 63,
+  "fields": {
+    "name": "Mirrors",
+    "description": "Products related to mirrors",
+    "created_at": "2025-09-14T07:34:29.885Z"
+  }
+},
+{
+  "model": "products.category",
+  "pk": 64,
+  "fields": {
+    "name": "Sweatpants",
+    "description": "Products related to sweatpants",
+    "created_at": "2025-09-14T07:34:29.966Z"
+  }
+},
+{
+  "model": "products.category",
+  "pk": 65,
+  "fields": {
+    "name": "Jogging",
+    "description": "Products related to jogging",
+    "created_at": "2025-09-14T07:34:30.003Z"
+  }
+},
+{
+  "model": "products.category",
+  "pk": 66,
+  "fields": {
+    "name": "Boxes",
+    "description": "Products related to boxes",
+    "created_at": "2025-09-14T07:34:30.145Z"
+  }
+},
+{
+  "model": "products.category",
+  "pk": 67,
+  "fields": {
+    "name": "Food Containers",
+    "description": "Products related to food containers",
+    "created_at": "2025-09-14T07:34:30.177Z"
+  }
+},
+{
+  "model": "products.category",
+  "pk": 68,
+  "fields": {
+    "name": "Coffeemakers",
+    "description": "Products related to coffeemakers",
+    "created_at": "2025-09-14T07:34:30.237Z"
+  }
+},
+{
+  "model": "products.category",
+  "pk": 69,
+  "fields": {
+    "name": "Food Blenders",
+    "description": "Products related to food blenders",
+    "created_at": "2025-09-14T07:34:30.507Z"
+  }
+},
+{
+  "model": "products.category",
+  "pk": 70,
+  "fields": {
+    "name": "Mixing Bowls",
+    "description": "Products related to mixing bowls",
+    "created_at": "2025-09-14T07:34:30.607Z"
+  }
+},
+{
+  "model": "products.category",
+  "pk": 71,
+  "fields": {
+    "name": "Baking",
+    "description": "Products related to baking",
+    "created_at": "2025-09-14T07:34:30.641Z"
+  }
+},
+{
+  "model": "products.category",
+  "pk": 72,
+  "fields": {
+    "name": "Kitchen Towels",
+    "description": "Products related to kitchen towels",
+    "created_at": "2025-09-14T07:34:30.722Z"
+  }
+}
+]
