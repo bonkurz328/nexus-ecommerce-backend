@@ -87,26 +87,21 @@ python manage.py runserver
 # Visit: http://127.0.0.1:8000/
 ```
 
-🛠️ Tech Stack
-Backend: Django 4.2.7, Django REST Framework
+🛠️ Tech Stack  
+Backend: Django 4.2.7, Django REST Framework  
+Frontend: JavaScript, Bootstrap 5, HTML5/CSS3  
+Database: PostgreSQL (Production), SQLite (Development)  
+Authentication: JWT Tokens  
+Deployment: Render.com  
+Containerization: Docker-ready  
 
-Frontend: JavaScript, Bootstrap 5, HTML5/CSS3
-
-Database: PostgreSQL (Production), SQLite (Development)
-
-Authentication: JWT Tokens
-
-Deployment: Render.com
-
-Containerization: Docker-ready
-
-🎯 Key Features Implemented
-✅ Full-stack deployment to production
-✅ REST API with complete CRUD operations
-✅ Product catalog with image management
-✅ Shopping cart functionality
-✅ User authentication system
-✅ Responsive design
-✅ Search and filtering
-✅ Order management
-✅ Database migrations
+🎯 Key Features Implemented  
+✅ Full-stack deployment to production  
+✅ REST API with complete CRUD operations  
+✅ Product catalog with image management  
+✅ Shopping cart functionality  
+✅ User authentication system  
+✅ Responsive design  
+✅ Search and filtering  
+✅ Order management  
+✅ Database migrations  
